@@ -2,7 +2,7 @@
 
 The base component is a wrapper for [express-pouchdb](https://github.com/pouchdb/express-pouchdb).  See below for
 variations (in-memory vs. filesystem data storage, persistent, etc.).  The component is also a
-[`fluid.express.middleware` instance](https://github.com/fluid-project/fluid-express/blob/master/docs/middleware.md)
+[`fluid.express.middleware` instance](https://github.com/fluid-project/fluid-express/blob/main/docs/middleware.md)
 that is meant to be wired into the root of [a `fluid.express` instance](https://github.com/fluid-project/fluid-express).
 
 ## Component Options
@@ -72,14 +72,14 @@ overriden with another invoker.
 ### `{that}.middleware(request, response, next)`
 
 * `request`: An object representing the individual user's request.  See [the `fluid-express`
-  documentation](https://github.com/fluid-project/fluid-express/blob/master/docs/express.md#the-express-request-object) for
+  documentation](https://github.com/fluid-project/fluid-express/blob/main/docs/express.md#the-express-request-object) for
   details.
 * `response`: The response object, which can be used to send information to the requesting user.  See [the
   `fluid-express`
-  documentation](https://github.com/fluid-project/fluid-express/blob/master/docs/express.md#the-express-response-object)
+  documentation](https://github.com/fluid-project/fluid-express/blob/main/docs/express.md#the-express-response-object)
   for details.
 * `next`: The next Express middleware or router function in the chain.  See [the `fluid-express` documentation for
-  details](https://github.com/fluid-project/fluid-express/blob/master/docs/middleware.md#what-is-middleware).
+  details](https://github.com/fluid-project/fluid-express/blob/main/docs/middleware.md#what-is-middleware).
 * Returns: Nothing.
 
 Fulfills the standard contract for a `fluid.express.middleware` grade.  This invoker is backed by an instance of
