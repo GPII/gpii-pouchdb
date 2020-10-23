@@ -2,7 +2,7 @@
 
     Provide a component that wraps an individual PouchDB instance.
 
-    https://github.com/fluid-project/fluid-pouchdb/blob/master/docs/pouchdb.md
+    https://github.com/fluid-project/fluid-pouchdb/blob/main/docs/pouchdb.md
 
  */
 /* eslint-env node */

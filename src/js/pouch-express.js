@@ -4,7 +4,7 @@
     Provide a CouchDB-like API using `PouchDB` and `express-pouchdb`.  This in only useful in association with an
     existing `fluid.express` instance.  See the documentation for details:
 
-    https://github.com/fluid-project/fluid-pouchdb/blob/master/docs/pouch-express.md
+    https://github.com/fluid-project/fluid-pouchdb/blob/main/docs/pouch-express.md
 
  */
 "use strict";
